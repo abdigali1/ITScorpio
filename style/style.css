@@ -1,0 +1,149 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.first-screen {
+    height: 100vh;
+    background-image: linear-gradient(to left, #F2C94C 68.8%, #F3EDE4 30%);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+}
+/* .first-screen::before{
+
+}
+.first-screen::after{
+
+} */
+.header {
+    margin: 7.28% 8.33% 0 8.33%;
+}
+.links .nav {
+    flex: 1;
+}
+.link {
+    color: black;
+    font-size: 1rem;
+    line-height: 22px;
+    font-weight: 600;
+    margin-right: 2.75rem;
+}
+.nav-title .title {
+    font-size: 12.5rem;
+    font-weight: 800;
+    line-height: 273px;
+    margin: 0;
+}
+.subtitle {
+    font-weight: 900;
+    font-size: 1rem;
+    line-height: 22px;
+    margin: 0;
+}
+.nav-title {
+    margin-top: 9%;
+    position: relative;
+}
+.nav-title::before{
+    position: absolute;
+    left: 23.2%;
+    background-image: url('../assets/before_line.png');
+    background-repeat: no-repeat;
+    width: 7.7%;
+    height: 6%;
+    content: '';
+    background-size: cover;
+}
+.screen {
+    background-color: #E5E5E5;
+}
+.main-title .title {
+    font-weight: 900;
+    font-size: 3.75rem;
+    line-height: 82px;
+    margin: 0;
+    margin-top: 7.5rem;
+}
+.main-categories {
+    height: 650px;
+}
+
+
+
+
+
+
+.works-title .title {
+    font-weight: 900;
+    font-size: 3.75rem;
+    line-height: 82px;
+}
+.text-block p, .text-block h3{
+    padding: 0;
+    margin: 0;
+}
+.company-name {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 33px;
+}
+.company-category {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 22px;
+}
+.company-description {
+    font-size: 16px;
+    line-height: 22px;
+
+}
+.company-site {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #F2C94C;line-height: 22px;
+}
+.right {
+    margin-right: 4%;
+}
+.left {
+    margin-left: 4%;
+}
+.top {
+    margin-top: 12%;
+}
+.btn-line {
+    margin-top: 100px;
+}
+.more-btn {
+    margin: 0 auto;
+    width: 13.4%;
+    height: 55px;
+    border: 2px solid #2A2630;
+    box-sizing: border-box;
+}
+.line {
+    margin-top: 1rem;
+    width: 7%;
+    height: 2px;
+    border: 2px solid #2A2630;
+}
+
+
+.clients {
+    margin-top: 100px;
+}
+.clients-title .title {
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 82px;
+}
+.client-screen {
+    background-color: #E5E5E5;
+    padding: 0 6.2%;
+}
+.client-block {
+    border: 2px solid #D9D8D8;
+    width: 24%;
+    height: 300px;
+}
